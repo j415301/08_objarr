@@ -52,5 +52,10 @@ public class Person {
 	public String getNumber() {
 		return number;
 	}
+	
+	//손쉽게 객체배열 출력하는 법
+	public String toString() {
+		return ""+name+" "+age+" "+gender+" "+number;
+	}
 
 }
